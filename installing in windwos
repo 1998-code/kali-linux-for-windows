@@ -1,3 +1,17 @@
 sudo apt update && sudo apt install -y kali-desktop-xfce
 sudo apt install xrdp -y
 sudo service xrdp start
+
+
+........
+
+The Other Way To Install XFCE
+First update your system.
+sudo apt update
+sudo apt upgrade
+Install xfce.
+sudo apt-get install xfce4
+Install xrdp.
+sudo apt-get install xrdp
+Once the install is complete you will need to start xrdp by typing:
+sudo /etc/init.d/xrdp start
