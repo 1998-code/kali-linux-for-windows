@@ -1,3 +1,3 @@
 sudo apt update && sudo apt install -y kali-desktop-xfce
 sudo apt install xrdp -y
-sudo apt install xrdp start
+sudo service xrdp start
